@@ -1,0 +1,19 @@
+{
+  "name": "Angus' Minimal Theme",
+  "authors": "Angus McLeod",
+  "about_url": "https://github.com/angusmcleod/discourse-minimal-theme",
+  "license_url": "https://github.com/angusmcleod/discourse-minimal-them/blob/main/LICENSE.txt",
+  "learn_more": "TODO",
+  "theme_version": "0.0.1",
+  "assets": {
+  },
+  "modifiers": {
+  },
+  "color_schemes": {
+    "Angus' Minimal Color Scheme": {
+      "primary": "121212",
+      "tertiary": "30475E",
+      "quaternary": "F05454"
+    }
+  }
+}

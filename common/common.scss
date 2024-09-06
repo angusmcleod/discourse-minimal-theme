@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
+
+.sidebar-section-link-wrapper .sidebar-section-link.active,
+.sidebar-section-link-wrapper .sidebar-section-link:focus,
+.sidebar-section-link-wrapper .sidebar-section-link:hover {
+  background: linear-gradient(to right, transparent 99%, var(--d-sidebar-highlight-color) 0);
+}
+
+.btn:not(.btn-primary) {
+  background: unset !important;
+  color: var(--primary-high) !important;
+
+  .d-icon {
+    color: var(--primary-high) !important;
+  }
+}
+
+.d-header-mode {
+  display: none;
+}
+
+.header-sidebar-toggle button .d-icon,
+.d-header-icons .d-icon {
+  font-size: var(--font-up-3);
+}
+
+tbody {
+  border-top: none;
+}
+
+.topic-list {
+  th.posts,
+  td.posts {
+    display: none;
+  }
+}
+
+.footer-message {
+  display: none !important;
+}
+
+.powered-by-discourse {
+  display: none !important;
+}
+
+.topic-map {
+  display: none !important;
+}
+
+.badge-category__wrapper .badge-category:before {
+  background: var(--primary-medium);
+}
+
+#sidebar-section-content-categories {
+  .sidebar-section-link-wrapper .sidebar-section-link-prefix .prefix-span {
+    background: var(--primary-medium) !important;
+  }
+
+  [data-list-item-name="all-categories"] {
+    display: none;
+  }
+}
+
+.category-breadcrumb {
+  display: none;
+}
+
+#collapsed-info-panel {
+  display: none;
+}
+
+.user-main .about .details {
+  padding-bottom: 1em;
+}
+
+.user-menu.revamped .tabs-list .btn {
+  .d-icon {
+    color: var(--primary-medium) !important;
+  }
+
+  &.active .d-icon {
+    color: var(--primary-high) !important;
+  }
+}
