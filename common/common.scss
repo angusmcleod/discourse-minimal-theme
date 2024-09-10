@@ -6,7 +6,7 @@
   background: linear-gradient(to right, transparent 99%, var(--d-sidebar-highlight-color) 0);
 }
 
-.btn:not(.btn-primary) {
+.btn:not(.btn-primary):not(#header-link-button) {
   background: unset !important;
   color: var(--primary-high) !important;
 
