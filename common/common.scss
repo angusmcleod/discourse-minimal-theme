@@ -82,3 +82,26 @@ tbody {
     color: var(--primary-high) !important;
   }
 }
+
+.block-banner-video-container {
+  border: 1px solid var(--primary);
+  width: 640px;
+  height: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  .d-icon {
+    font-size: 2em;
+    color: var(--primary);
+  }
+
+  iframe {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+}
