@@ -6,7 +6,7 @@
   background: linear-gradient(to right, transparent 99%, var(--d-sidebar-highlight-color) 0);
 }
 
-.btn:not(.btn-primary):not(#header-link-button) {
+.btn:not(.btn-primary):not(.cta-button) {
   background: unset !important;
   color: var(--primary-high) !important;
 
@@ -103,5 +103,15 @@ tbody {
     right: 0;
     top: 0;
     bottom: 0;
+  }
+}
+
+.block-banner.hero {
+  font-size: 1.8em;
+
+  .discourse-link {
+    background: linear-gradient(to right, #e87237 0%, #e9e95a 50%, #4d80ce 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 }

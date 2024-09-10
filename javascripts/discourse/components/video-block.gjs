@@ -1,6 +1,5 @@
 import Component from '@glimmer/component';
-import { htmlSafe } from '@ember/template';
-import i18n from 'discourse-common/helpers/i18n';
+import dIcon from "discourse-common/helpers/d-icon";
 
 export default class Video extends Component {
   <template>
