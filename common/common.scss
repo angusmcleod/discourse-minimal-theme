@@ -115,3 +115,45 @@ tbody {
     -webkit-text-fill-color: transparent;
   }
 }
+
+.block-banner.cta {
+  margin-top: 1em;
+}
+
+.block-banner__container.cta {
+  display: flex;
+  align-items: center;
+  gap: 3em;
+
+  .cta-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    border: 1px solid var(--primary);
+    padding: 1em;
+    width: 250px;
+    height: 120px;
+
+    .d-icon {
+      font-size: 2em;
+    }
+
+    .cta-block-text {
+      font-size: 1.7em;
+    }
+
+    &.cta-1:hover {
+      box-shadow: -8px 8px #e87237;
+    }
+
+    &.cta-2:hover {
+      box-shadow: -8px 8px #e9e95a;
+    }
+
+    &.cta-3:hover {
+      box-shadow: -8px 8px #4d80ce;
+    }
+  }
+}

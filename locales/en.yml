@@ -3,3 +3,6 @@ en:
     description: My minimal theme for Discourse
   minimal:
     hero: ""
+    cta_1: ""
+    cta_2: ""
+    cta_3: ""

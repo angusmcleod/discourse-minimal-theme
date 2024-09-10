@@ -1,0 +1,13 @@
+#header-button-cta-button {
+  display: none;
+}
+
+.block-banner__container.cta {
+  flex-direction: column;
+  gap: 1em;
+
+  .cta-block {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
