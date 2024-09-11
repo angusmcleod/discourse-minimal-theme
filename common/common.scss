@@ -129,9 +129,10 @@ tbody {
 }
 
 .discourse-link {
-  background: linear-gradient(to right, #e87237 0%, #e9e95a 50%, #4d80ce 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  img {
+    height: 65px;
+    margin-bottom: 14px;
+  }
 }
 
 .block-banner.cta {
@@ -202,7 +203,7 @@ body.home-blocks-hero {
 }
 
 .block-banner.image {
-  margin-top: 2em;
+  margin-top: 3em;
 }
 
 .block-banner__container.image {
