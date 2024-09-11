@@ -9,9 +9,9 @@ export default class Card extends Component {
         <h2 class='block-banner__message image'>{{htmlSafe
             (i18n (themePrefix 'minimal.image'))
           }}</h2>
-        <a class="image-link" href="https://meta.discourse.org/u/angus" target="_blank">
+        <!--<a class="image-link" href="https://meta.discourse.org/u/angus" target="_blank">
           <img src="https://support.angus.blog/uploads/default/original/1X/99ba86a8ffc795fc2c5c30be75965c131fc41a6d.jpeg" />
-        </a>
+        </a>-->
       </div>
     </div>
   </template>
