@@ -11,3 +11,20 @@
     box-sizing: border-box;
   }
 }
+
+.block-banner.hero .avatar {
+  width: 65px;
+  height: 65px;
+}
+
+.block-banner.hero h2 {
+  line-height: 1.5em;
+}
+
+.block-banner.text {
+  padding: 1em 2em;
+}
+
+.block-banner__container.image img {
+  display: none;
+}

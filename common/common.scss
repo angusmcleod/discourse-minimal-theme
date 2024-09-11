@@ -6,7 +6,11 @@
   background: linear-gradient(to right, transparent 99%, var(--d-sidebar-highlight-color) 0);
 }
 
-.btn:not(.btn-primary):not(.cta-button) {
+.homepage-blocks {
+  margin-bottom: 2em;
+}
+
+.btn:not(.btn-primary):not(.cta-button):not(.composer-controls .btn) {
   background: unset !important;
   color: var(--primary-high) !important;
 
@@ -107,13 +111,27 @@ tbody {
 }
 
 .block-banner.hero {
-  font-size: 1.8em;
-
-  .discourse-link {
-    background: linear-gradient(to right, #e87237 0%, #e9e95a 50%, #4d80ce 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  .hero-avatar {
+    margin-right: 0.5em;
   }
+
+  .avatar {
+    width: 70px;
+    height: 70px;
+    border: 2px solid var(--primary);
+  }
+
+  h2 {
+    font-size: 3em;
+    font-weight: 400;
+    line-height: 1.7em;
+  }
+}
+
+.discourse-link {
+  background: linear-gradient(to right, #e87237 0%, #e9e95a 50%, #4d80ce 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .block-banner.cta {
@@ -131,29 +149,75 @@ tbody {
     justify-content: center;
     align-items: center;
     gap: 1em;
-    border: 1px solid var(--primary);
+    border: 2px solid var(--primary);
     padding: 1em;
     width: 250px;
     height: 120px;
 
     .d-icon {
-      font-size: 2em;
+      font-size: 2.2em;
     }
 
     .cta-block-text {
-      font-size: 1.7em;
+      font-size: 1.8em;
+      font-weight: 800;
     }
 
-    &.cta-1:hover {
+    &.cta-1 {
       box-shadow: -8px 8px #e87237;
     }
 
-    &.cta-2:hover {
+    &.cta-2 {
       box-shadow: -8px 8px #e9e95a;
     }
 
-    &.cta-3:hover {
+    &.cta-3 {
       box-shadow: -8px 8px #4d80ce;
     }
+  }
+}
+
+.block-banner.text {
+  margin-top: 3em;
+  background: var(--primary-100);
+  padding: 2em 3em;
+  max-width: 950px;
+  box-sizing: border-box;
+}
+
+.block-banner__container.text h2 {
+  font-size: 2.3em;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.pavilion-link {
+  color: #362bde !important;
+}
+
+body.home-blocks-hero {
+  #message-button {
+    display: none;
+  }
+}
+
+.block-banner.image {
+  margin-top: 2em;
+}
+
+.block-banner__container.image {
+
+  .block-banner__message.image {
+    font-size: 2em;
+    font-weight: 400;
+    margin-bottom: 1em;
+  }
+
+  a.image-link {
+    display: block;
+  }
+
+  img {
+    width: 600px;
   }
 }
