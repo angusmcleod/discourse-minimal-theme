@@ -125,6 +125,10 @@ tbody {
     font-size: 3em;
     font-weight: 400;
     line-height: 1.7em;
+
+    a {
+      margin-left: .15em;
+    }
   }
 }
 
@@ -221,4 +225,9 @@ body.home-blocks-hero {
   img {
     width: 600px;
   }
+}
+
+.discourse-logo img {
+  height: 60px;
+  margin-bottom: 13px;
 }

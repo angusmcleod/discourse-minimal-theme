@@ -6,6 +6,8 @@
   "learn_more": "TODO",
   "theme_version": "0.0.1",
   "assets": {
+    "logo_white": "assets/logo-white.png",
+    "logo": "assets/logo.svg"
   },
   "modifiers": {
     "svg_icons": ["life-ring"]
