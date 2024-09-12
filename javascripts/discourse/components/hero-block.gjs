@@ -42,14 +42,12 @@ export default class Hero extends Component {
           avatar this.user imageSize="extra_large"
         }}</span>{{htmlSafe
             (i18n (themePrefix 'minimal.hero'))
-          }}
-          <a href={{this.url}} target="_blank">
+          }}<a href={{this.url}} target="_blank">
             <picture class="discourse-logo">
               <source srcset={{getURL this.darkImgUrl}} media="(prefers-color-scheme: dark)" />
               <img src={{getURL this.imgUrl}} />
             </picture>
-          </a>
-          .
+          </a>.
         </h2>
       </div>
     </div>
