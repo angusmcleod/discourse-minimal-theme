@@ -49,6 +49,7 @@ export default class Hero extends Component {
               <img src={{getURL this.imgUrl}} />
             </picture>
           </a>
+          .
         </h2>
       </div>
     </div>
