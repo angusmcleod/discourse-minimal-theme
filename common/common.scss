@@ -219,12 +219,8 @@ body.home-blocks-hero {
     margin-bottom: 1em;
   }
 
-  a.image-link {
-    display: block;
-  }
-
-  img {
-    width: 600px;
+  a {
+    color: var(--primary);
   }
 }
 
