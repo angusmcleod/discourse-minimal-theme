@@ -9,7 +9,7 @@ export default class Hero extends Component {
   @service currentUser;
 
   get ctaBlocks() {
-    return ['cta_1', 'cta_2', 'cta_3'].map(key => {
+    return ['cta_1', 'cta_2'].map(key => {
       let url = settings[`${key}_url`];
       if (!this.currentUser && key !== "cta_1") {
         url = "/login";
