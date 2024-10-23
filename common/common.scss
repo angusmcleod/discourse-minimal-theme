@@ -228,3 +228,13 @@ body.home-blocks-hero {
   height: 60px;
   margin-bottom: 13px;
 }
+
+body:not(.staff) {
+  .navigation-container {
+    display: none;
+  }
+
+  .sidebar-custom-sections {
+    display: none;
+  }
+}
