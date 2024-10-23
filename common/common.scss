@@ -10,7 +10,7 @@
   margin-bottom: 2em;
 }
 
-.btn:not(.btn-primary):not(.cta-button):not(.composer-controls .btn) {
+.btn:not(.btn-primary):not(.cta-button):not(.composer-controls .btn):not(.btn-social) {
   background: unset !important;
   color: var(--primary-high) !important;
 
