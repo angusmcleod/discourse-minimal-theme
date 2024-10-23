@@ -40,7 +40,7 @@ export default class Hero extends Component {
     <div class='block-banner cta'>
       <div class='block-banner__container cta'>
         {{htmlSafe this.ctaBlocks}}
-        <a class="cta-block support-block" {{on "click" this.openChat}}>
+        <a class="cta-block cta-3-block" {{on "click" this.openChat}}>
            {{dIcon "d-chat"}}
           <span class="cta-block-text">{{htmlSafe (i18n (themePrefix "minimal.cta_3"))}}</span>
         </a>
