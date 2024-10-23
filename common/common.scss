@@ -237,4 +237,8 @@ body:not(.staff) {
   .sidebar-custom-sections {
     display: none;
   }
+
+  .sidebar-footer-actions-button.add-section {
+    display: none;
+  }
 }
