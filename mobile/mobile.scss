@@ -2,6 +2,10 @@
   display: none;
 }
 
+.homepage-blocks {
+  padding: 0.5em;
+}
+
 .block-banner__container.cta {
   flex-direction: column;
   gap: 1em;
@@ -19,12 +23,23 @@
 
 .block-banner.hero h2 {
   line-height: 1.5em;
+  font-size: 2.5em;
 }
 
 .block-banner.text {
-  padding: 1em 2em;
+  padding: 1em;
 }
 
-.block-banner__container.image img {
-  display: none;
+.block-banner.image {
+  margin-top: 2em;
+}
+
+.block-banner__container.image {
+  img {
+    display: none;
+  }
+
+  .block-banner__message.image {
+    font-size: 1.6em;
+  }
 }
