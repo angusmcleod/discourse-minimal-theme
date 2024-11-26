@@ -239,4 +239,12 @@ body:not(.staff) {
   .sidebar-section-header-button {
     display: none;
   }
+
+  .sidebar-section-wrapper[data-section-name=user-threads] {
+    display: none;
+  }
+
+  .sidebar-section-link-wrapper[data-list-item-name=all-tags] {
+    display: none;
+  }
 }
