@@ -223,6 +223,14 @@ tbody {
   margin-bottom: 13px;
 }
 
+.sidebar-section-wrapper[data-section-name=user-threads] {
+  display: none;
+}
+
+.sidebar-section-link-wrapper[data-list-item-name=all-tags] {
+  display: none;
+}
+
 body:not(.staff) {
   .navigation-container {
     display: none;
@@ -237,14 +245,6 @@ body:not(.staff) {
   }
 
   .sidebar-section-header-button {
-    display: none;
-  }
-
-  .sidebar-section-wrapper[data-section-name=user-threads] {
-    display: none;
-  }
-
-  .sidebar-section-link-wrapper[data-list-item-name=all-tags] {
     display: none;
   }
 }
